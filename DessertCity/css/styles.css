@@ -1,5 +1,9 @@
 /*Element Styles
 ==============================*/
+* {
+  box-sizing: border-box;
+}
+
 body {
   line-height: 1.6;
 }
@@ -9,8 +13,15 @@ a {
   color: #fff
 }
 
-/*Layout Styles
+
+/*Layout Containers
 ==============================*/
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+
 .main-header {
   background-color: #3acec2;
 }
@@ -21,13 +32,22 @@ a {
   padding: 2em 0;
 }
 
-.container {
-  width: 70%;
-  margin: 0 auto;
-}
-
-/*Layout Styles
+/*Nav Styles
 ==============================*/
 .name {
-  margin-top: 0;
+  margin: 0;
+}
+
+/*Media Queries
+==============================*/
+@media (min-width: 769px) {
+  .wrap {
+    min-height: calc(100vh - 89px);
+  }
+
+  .container {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
 }
