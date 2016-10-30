@@ -65,22 +65,26 @@ a {
   .wrap {
     min-height: calc(100vh - 89px);
   }
-
   .container {
-    width: 70%;
+    width: 80%;
     max-width: 1000px;
     margin: 0 auto;
+  }
+  .col {
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    vertical-align: top;
+    padding: 0 1em 0 1em;
   }
   .name,
   .main-nav,
   .main-nav li {
     display: inline-block;
   }
-
   .name {
     margin-right: 50px;
   }
-
   .main-nav li {
     margin-right: 12px;
   }
