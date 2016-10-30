@@ -10,9 +10,34 @@ body {
 
 a {
   text-decoration: none;
-  color: #fff
 }
 
+/*Nav Styles
+==============================*/
+.name {
+  font-size: 1.25em;
+}
+
+.name,
+.main-nav li {
+  text-align: center;
+  background-color: #fff;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.main-nav a {
+  color: #3acec2;
+  text-transform: uppercase;
+}
+
+.name a,
+.main-nav a {
+  padding: 10px 15px;
+  display: block;
+}
+.main-nav a:hover {
+  color: #093a58;
+}
 
 /*Layout Containers
 ==============================*/
@@ -21,21 +46,17 @@ a {
   padding-right: 1em;
 }
 
-
 .main-header {
+  text-align: center;
+  padding: 1.5em 0 1.5em 0;
   background-color: #3acec2;
+  margin-bottom: 30px;
 }
 
 .main-footer {
   text-align: center;
   background-color: #d9e4ea;
-  padding: 2em 0;
-}
-
-/*Nav Styles
-==============================*/
-.name {
-  margin: 0;
+  padding: 1em 0;
 }
 
 /*Media Queries
@@ -49,5 +70,18 @@ a {
     width: 70%;
     max-width: 1000px;
     margin: 0 auto;
+  }
+  .name,
+  .main-nav,
+  .main-nav li {
+    display: inline-block;
+  }
+
+  .name {
+    margin-right: 50px;
+  }
+
+  .main-nav li {
+    margin-right: 12px;
   }
 }
