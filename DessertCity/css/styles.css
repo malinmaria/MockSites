@@ -46,17 +46,28 @@ a {
   padding-right: 1em;
 }
 
-.main-header {
+.pic-header {
   text-align: center;
   padding: 1.5em 0 1.5em 0;
+  color: #fff;
   background-color: #3acec2;
   margin-bottom: 30px;
+}
+.building-pic {
+  border-radius: 50%;
 }
 
 .main-footer {
   text-align: center;
   background-color: #d9e4ea;
   padding: 1em 0;
+}
+.feat-img {
+  width: 250px;
+  height: 250px;
+  margin: 5px 25px 15px 5px;
+  padding: 10px;
+  border: 1px solid #d3d3d3;
 }
 
 /*Media Queries
@@ -72,20 +83,16 @@ a {
   }
   .col {
     display: inline-block;
-    width: 50%;
+    width: 33%;
     margin-right: -4px;
     vertical-align: top;
     padding: 0 1em 0 1em;
   }
   .name,
-  .main-nav,
   .main-nav li {
     display: inline-block;
   }
-  .name {
-    margin-right: 50px;
-  }
-  .main-nav li {
-    margin-right: 12px;
+  .main-nav {
+    float: right;
   }
 }
