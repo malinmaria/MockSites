@@ -70,18 +70,23 @@ a {
   padding: 10px;
   border: 1px solid #d3d3d3;
 }
+.secondar-col {
+  position: relative;
+}
+#img-wrapper {
+  height: 350px;
+}
 #img-wrapper .text {
-position:relative;
-bottom:30px;
-left:0px;
-visibility:hidden;
+  position: relative;
+  bottom: 75px;
+  left: 20px;
+  visibility: hidden;
 }
 #img-wrapper:hover .text {
-visibility:visible;
+  visibility: visible;
 }
 .feat-img:hover {
-  visibility: visible;
-  opacity: .5;
+  opacity: .3;
 }
 
 /*Media Queries
