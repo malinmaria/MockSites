@@ -39,6 +39,10 @@ a {
 .main-nav a:hover {
   color: #093a58;
 }
+.selected {
+  text-decoration: underline;
+}
+
 
 /*Layout Containers
 ==============================*/
@@ -62,6 +66,9 @@ a {
   text-align: center;
   background-color: #d9e4ea;
   padding: 1em 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 .feat-img {
   width: 250px;
@@ -96,6 +103,46 @@ a {
   padding: 20px 10px;
   text-align: center;
   font-size: 32px
+}
+/*Cookies Page Styles
+==============================*/
+.cookies {
+  border: 5px solid #e1dfbe;
+  width: 30%;
+  margin: 50px auto 20px;
+  border-radius: 5px;
+  padding: 10px 5px;
+  text-align: center;
+  font-size: 32px;
+}
+#box {
+  width: 200px;
+  height: 100px;
+  display: none;
+  background-color: lightblue;
+  margin: 50px auto 20px;
+}
+.c-wrapper {
+  margin-left: 30%;
+  margin-bottom: 100px;
+}
+.c-cookie {
+  position: relative;
+  height: 225px;
+  width: 225px;
+}
+.s-cookie {
+  position: relative;
+  height: 205px;
+  width: 215px;
+}
+.m-cookie {
+  position: relative;
+  height: 205px;
+  width: 245px;
+}
+.d-cookie{
+  position: relative;
 }
 
 /*Media Queries
