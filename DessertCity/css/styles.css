@@ -88,6 +88,15 @@ a {
 .feat-img:hover {
   opacity: .3;
 }
+.warning {
+  border: 5px solid #e1dfbe;
+  width: 200px;
+  margin: 100px auto 20px;
+  border-radius: 5px;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 32px
+}
 
 /*Media Queries
 ==============================*/
