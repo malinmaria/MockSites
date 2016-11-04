@@ -42,7 +42,9 @@ a {
 .selected {
   text-decoration: underline;
 }
-
+.main-header {
+  z-index: 10;
+}
 
 /*Layout Containers
 ==============================*/
@@ -69,6 +71,7 @@ a {
   position: fixed;
   bottom: 0;
   width: 100%;
+  z-index: 10;
 }
 .feat-img {
   width: 250px;
@@ -130,19 +133,37 @@ a {
   position: relative;
   height: 225px;
   width: 225px;
+  transition: all 2s ease;
+  border-radius: 100%;
+  z-index: 5;
 }
 .s-cookie {
   position: relative;
   height: 205px;
   width: 215px;
+  transition: all 2s ease;
+  border-radius: 100%;
 }
 .m-cookie {
   position: relative;
   height: 205px;
   width: 245px;
+  transition: all 2s ease;
+  border-radius: 100%;
 }
-.d-cookie{
-  position: relative;
+.d-cookie {
+  transition: all 2s ease;
+  border-radius: 100%;
+}
+.rotate-r {
+  transform: translateX(150px) rotate(180deg);
+}
+.rotate-l {
+  transform: translateX(-180px) rotate(180deg);
+}
+.c-recipe {
+  position: absolute;
+  top: 500px;
 }
 
 /*Media Queries

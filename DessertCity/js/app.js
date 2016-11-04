@@ -5,14 +5,14 @@ $(".warning").hide().show("slow");
     });
 
     $(".c-cookie").click(function(){
-      $(".c-cookie").animate({
-        right: '250px'
-      });
+      $(".c-cookie").toggleClass('rotate-l');
     });
-
     $(".m-cookie").click(function(){
-      $(".m-cookie").animate({
-        right: '250px'
-      });
+      $(".m-cookie").toggleClass('rotate-l');
     });
-    
+    $(".s-cookie").click(function(){
+      $(".s-cookie").toggleClass('rotate-r');
+    });
+    $(".d-cookie").click(function(){
+      $(".d-cookie").toggleClass('rotate-r');
+    });
