@@ -143,6 +143,7 @@ a {
   width: 215px;
   transition: all 2s ease;
   border-radius: 100%;
+  z-index: 5;
 }
 .m-cookie {
   position: relative;
@@ -150,21 +151,51 @@ a {
   width: 245px;
   transition: all 2s ease;
   border-radius: 100%;
+  z-index: 5;
 }
 .d-cookie {
+  position: relative;
   transition: all 2s ease;
   border-radius: 100%;
+  z-index: 5;
 }
 .rotate-r {
-  transform: translateX(150px) rotate(180deg);
+  transform: translateX(250px) rotate(180deg);
 }
 .rotate-l {
-  transform: translateX(-180px) rotate(180deg);
+  transform: translateX(-250px) rotate(-180deg);
 }
 .c-recipe {
   position: absolute;
-  top: 500px;
+  top: 480px;
+  font-size: .8em;
+  padding: 10px;
+  text-align: center;
 }
+.d-recipe {
+  position: absolute;
+  top: 480px;
+  right: 490px;
+  font-size: .8em;
+  padding: 10px;
+  text-align: center;
+}
+.m-recipe {
+  position: absolute;
+  top: 675px;
+  font-size: .8em;
+  padding: 10px;
+  text-align: center;
+}
+.s-recipe {
+  position: absolute;
+  top: 675px;
+  right: 490px;
+  font-size: .8em;
+  padding: 10px;
+  text-align: center;
+}
+
 
 /*Media Queries
 ==============================*/
