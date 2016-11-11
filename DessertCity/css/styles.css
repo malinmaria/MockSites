@@ -196,6 +196,12 @@ a {
   text-align: center;
 }
 
+/*Doughnuts Page
+==============================*/
+.dnt-img {
+  height: 350px;
+  width: 400px;
+}
 
 /*Media Queries
 ==============================*/
