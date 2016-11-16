@@ -51,6 +51,7 @@ a {
 .container {
   padding-left: 1em;
   padding-right: 1em;
+  /*margin-bottom: 100px;*/
 }
 
 .pic-header {
@@ -72,6 +73,7 @@ a {
   bottom: 0;
   width: 100%;
   z-index: 10;
+  clear: both
 }
 .feat-img {
   width: 250px;
@@ -205,6 +207,26 @@ a {
   margin: 0 auto;
 }
 
+form {
+  margin-bottom: 100px;
+  display: block;
+  position: relative;
+  max-width: 300px;
+  left: 450px;
+}
+
+input,
+textarea {
+  display: block;
+  background-color: #e8eeef;
+  padding: 2px;
+  margin-top: 8px;
+}
+button {
+  display: block;
+  margin-top: 5px;
+  background-color: #ffe7ba;
+}
 /*Media Queries
 ==============================*/
 @media (min-width: 769px) {
