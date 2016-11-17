@@ -51,7 +51,6 @@ a {
 .container {
   padding-left: 1em;
   padding-right: 1em;
-  /*margin-bottom: 100px;*/
 }
 
 .pic-header {
@@ -73,7 +72,7 @@ a {
   bottom: 0;
   width: 100%;
   z-index: 10;
-  clear: both
+  /*margin-top: 100px;*/
 }
 .feat-img {
   width: 250px;
@@ -200,15 +199,24 @@ a {
 
 /*Doughnuts Page
 ==============================*/
-.dnt-img {
-  height: 350px;
-  width: 400px;
+.dnt-header {
+  border: 5px solid #e1dfbe;
+  width: 30%;
+  margin: 50px auto 0px;
+  border-radius: 5px;
+  padding: 10px 5px;
+  text-align: center;
+  font-size: 32px;
+}
+.dnt-img1 {
+  height: 80px;
+  width: 350px;
   display: block;
   margin: 0 auto;
+  top: -100px;
 }
 
 form {
-  margin-bottom: 100px;
   display: block;
   position: relative;
   max-width: 300px;
@@ -232,9 +240,30 @@ button {
   background-color: #bced91;
 }
 
-/*.s-submitted {
+.s-submitted {
+  text-align: center;
+  background-color: #00c957;
+  width: 155px;
+  padding: 2px;
+  border: 1px solid black;
+}
+
+.tiny-dnt {
+  height: 7%;
+  width: 7%;
+  position: relative;
+  transition: all 2s ease;
+  border-radius: 100%;
+  left: 400px;
+}
+.mv-dnt {
+  transform: translateX(450px) rotate(360deg);
+}
+.temp {
   display: none;
-}*/
+  margin-bottom: 100px;
+  text-align: center;
+}
 /*Media Queries
 ==============================*/
 @media (min-width: 769px) {

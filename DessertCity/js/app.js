@@ -24,3 +24,17 @@ $("input").bind('focus blur', function(){
 $("textarea").bind('focus blur', function(){
   $(this).toggleClass('green');
 });
+
+$(".s-submitted").click(function(){
+  $(this).text(function(i, text){
+    return text === 'Order Now!' ? 'Sending Your Order...' : 'Order Now!';
+  });
+  // $(this).toggleClass('mv-dnt');
+});
+
+$(".s-submitted").click(function(){
+  $(".tiny-dnt").toggleClass('mv-dnt');
+  $(".tiny-dnt").fadeOut('slow', function(){
+    $(".temp").show();
+  });
+});
