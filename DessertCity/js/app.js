@@ -1,4 +1,4 @@
-$(".warning").hide().show("slow");
+// $(".warning").hide().show("slow");
 
     $(".cookies").click(function(){
       $("#box").toggle(2000);
@@ -16,3 +16,11 @@ $(".warning").hide().show("slow");
     $(".d-cookie").click(function(){
       $(this).toggleClass('rotate-r');
     });
+
+$("input").bind('focus blur', function(){
+  $(this).toggleClass('green');
+});
+
+$("textarea").bind('focus blur', function(){
+  $(this).toggleClass('green');
+});

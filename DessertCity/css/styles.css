@@ -225,8 +225,16 @@ textarea {
 button {
   display: block;
   margin-top: 5px;
-  background-color: #ffe7ba;
+  background-color: #00c957;
 }
+
+.green {
+  background-color: #bced91;
+}
+
+/*.s-submitted {
+  display: none;
+}*/
 /*Media Queries
 ==============================*/
 @media (min-width: 769px) {
