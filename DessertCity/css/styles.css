@@ -264,6 +264,19 @@ button {
   margin-bottom: 100px;
   text-align: center;
 }
+
+/*Ice Cream Page
+==============================*/
+ul li {
+  display: inline-block;
+  background-color: #00c957;
+  padding: 8px;
+  margin: 10px;
+}
+
+.icm-wrapper {
+  margin-bottom: 100px;
+}
 /*Media Queries
 ==============================*/
 @media (min-width: 769px) {
