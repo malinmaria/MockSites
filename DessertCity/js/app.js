@@ -38,3 +38,12 @@ $(".s-submitted").click(function(){
     $(".temp").show();
   });
 });
+
+var $overlay = $('<div class="overlay"></div>');
+$("body").append($overlay);
+
+$(".icm-wrapper a").click(function(event){
+  event.preventDefault();
+  $(this).attr("href");
+  $overlay.show();
+});
