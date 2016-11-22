@@ -267,6 +267,16 @@ button {
 
 /*Ice Cream Page
 ==============================*/
+.icm-header {
+  border: 5px solid #e1dfbe;
+  width: 20%;
+  margin: 50px auto 0px;
+  border-radius: 5px;
+  padding: 10px 5px;
+  text-align: center;
+  font-size: 32px;
+}
+
 ul li {
   display: inline-block;
   background-color: #00c957;
@@ -301,6 +311,19 @@ ul li {
   display: none;
   text-align: center;
 }
+
+/*Cake Page
+==============================*/
+.cake-header {
+  border: 5px solid #e1dfbe;
+  width: 25%;
+  margin: 50px auto 0px;
+  border-radius: 5px;
+  padding: 10px 5px;
+  text-align: center;
+  font-size: 32px;
+}
+
 /*Media Queries
 ==============================*/
 @media (min-width: 769px) {
