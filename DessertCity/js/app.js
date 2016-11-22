@@ -40,10 +40,14 @@ $(".s-submitted").click(function(){
 });
 
 var $overlay = $('<div class="overlay"></div>');
+var $image = $("<img>");
+
+$overlay.append($image);
 $("body").append($overlay);
 
 $(".icm-wrapper a").click(function(event){
   event.preventDefault();
-  $(this).attr("href");
+  var location = $(this).attr('href');
+  $image.attr("src", location);
   $overlay.show();
 });
