@@ -51,3 +51,6 @@ $(".icm-wrapper a").click(function(event){
   $image.attr("src", location);
   $overlay.show();
 });
+$overlay.click(function(){
+  $overlay.hide();
+});
