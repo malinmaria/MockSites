@@ -284,12 +284,17 @@ ul li {
 
 .overlay img {
   margin-top: 10%;
+  border: 5px solid #00c957;
+}
+
+.overlay p {
+  color: white;
 }
 
 .overlay {
   height: 145%;
   width: 100%;
-  background: rgba(0,0,0,0.7);
+  background: rgba(0,0,0,0.8);
   position: absolute;
   top: 0;
   left: 0;

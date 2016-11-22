@@ -41,8 +41,10 @@ $(".s-submitted").click(function(){
 
 var $overlay = $('<div class="overlay"></div>');
 var $image = $("<img>");
+var $caption = $("<p></p>");
 
 $overlay.append($image);
+$overlay.append($caption);
 $("body").append($overlay);
 
 $(".icm-wrapper a").click(function(event){
@@ -50,6 +52,8 @@ $(".icm-wrapper a").click(function(event){
   var location = $(this).attr('href');
   $image.attr("src", location);
   $overlay.show();
+  var captionText = $(this).children("img").attr("alt");
+  $caption.text(captionText);
 });
 $overlay.click(function(){
   $overlay.hide();
