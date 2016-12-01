@@ -216,15 +216,14 @@ a {
   top: -100px;
 }
 
-form {
+.d-form {
   display: block;
   position: relative;
   max-width: 300px;
   left: 450px;
 }
 
-input,
-textarea {
+.d-form1 {
   display: block;
   background-color: #e8eeef;
   padding: 2px;
@@ -322,6 +321,27 @@ ul li {
   padding: 10px 5px;
   text-align: center;
   font-size: 32px;
+}
+
+.cake-imgs {
+  margin-left: 15%;
+  /*display: inline;*/
+  float: right;
+}
+
+.c-form{
+  display: relative;
+}
+
+.base {
+  display: none;
+  width: 200px;
+  height: 200px;
+}
+.icing {
+  display: none;
+  width: 200px;
+  height: 200px;
 }
 
 /*Media Queries

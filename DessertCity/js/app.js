@@ -58,3 +58,12 @@ $(".icm-wrapper a").click(function(event){
 $overlay.click(function(){
   $overlay.hide();
 });
+
+$(".round").click(function(){
+  $('.base').toggle();
+  $('.icing').hide();
+});
+$(".c-icing").click(function(){
+  $('.base').hide();
+  $('.icing').toggle();
+});
