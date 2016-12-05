@@ -323,14 +323,17 @@ ul li {
   font-size: 32px;
 }
 
-.cake-imgs {
-  margin-left: 15%;
-  /*display: inline;*/
-  float: right;
+.c-form{
+  width: 200px;
+  position: relative;
 }
 
-.c-form{
-  display: relative;
+.cake-imgs {
+  position: absolute;
+  margin-left: 30%;
+  margin-top: -10%;
+  display: inline-block;
+  float: right;
 }
 
 .base {
