@@ -336,12 +336,14 @@ ul li {
   float: right;
 }
 
-.base {
+.rbase,
+.sbase {
   display: none;
   width: 200px;
   height: 200px;
 }
-.icing {
+.icing,
+.sicing {
   display: none;
   width: 200px;
   height: 200px;

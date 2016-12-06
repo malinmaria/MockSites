@@ -60,10 +60,20 @@ $overlay.click(function(){
 });
 
 $(".round").click(function(){
-  $('.base').toggle();
+  $('.sbase').hide();
+  $('.rbase').toggle();
+  $('.icing').hide();
+  $('.sicing').hide();
+});
+$(".square").click(function(){
+  $('.rbase').hide();
+  $('.sbase').toggle();
   $('.icing').hide();
 });
 $(".c-icing").click(function(){
-  $('.base').hide();
+  $('.sbase').hide();
+  $('.rbase').hide();
+  $('.rbase').hide();
   $('.icing').toggle();
+  $('.sicing').toggle();
 });
