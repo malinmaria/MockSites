@@ -60,25 +60,46 @@ $overlay.click(function(){
 });
 
 $(".round").click(function(){
-  $('.sbase').hide();
-  $('.rbase').toggle();
-  $('.icing').hide();
-  $('.sicing').hide();
+  $('.s-cake').hide();
+  $('.r-cake').toggle();
+  $('.rc-icing').hide();
+  $('.sc-icing').hide();
+  $('.rv-icing').hide();
+  $('.sv-icing').hide();
 });
 $(".square").click(function(){
-  $('.rbase').hide();
-  $('.sbase').toggle();
-  $('.icing').hide();
+  $('.r-cake').hide();
+  $('.s-cake').toggle();
+  $('.rc-icing').hide();
+  $('.sc-icing').hide();
+  $('.rv-icing').hide();
+  $('.sv-icing').hide();
 });
 $(".c-icing").click(function(){
   if($('.round[value=round]').is(':checked')){
-    $('.rbase').hide();
-    $('.icing').toggle();
+    $('.r-cake').hide();
+    $('.rv-icing').hide();
+    $('.rc-icing').toggle();
   }
 });
 $(".c-icing").click(function(){
   if($('.square[value=square]').is(':checked')){
-    $('.sbase').hide();
-    $('.sicing').toggle();
+    $('.s-cake').hide();
+    $('.sv-icing').hide();
+    $('.sc-icing').toggle();
+  }
+});
+$(".v-icing").click(function(){
+  if($('.round[value=round]').is(':checked')){
+    $('.r-cake').hide();
+    $('.rc-icing').hide();
+    $('.rv-icing').toggle();
+  }
+});
+$(".v-icing").click(function(){
+  if($('.square[value=square]').is(':checked')){
+    $('.s-cake').hide();
+    $('.sc-icing').hide();
+    $('.sv-icing').toggle();
   }
 });

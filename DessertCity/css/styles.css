@@ -336,14 +336,12 @@ ul li {
   float: right;
 }
 
-.rbase,
-.sbase {
-  display: none;
-  width: 200px;
-  height: 200px;
-}
-.icing,
-.sicing {
+.r-cake,
+.s-cake,
+.rc-icing,
+.sc-icing,
+.rv-icing,
+.sv-icing {
   display: none;
   width: 200px;
   height: 200px;
