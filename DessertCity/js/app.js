@@ -71,9 +71,14 @@ $(".square").click(function(){
   $('.icing').hide();
 });
 $(".c-icing").click(function(){
-  $('.sbase').hide();
-  $('.rbase').hide();
-  $('.rbase').hide();
-  $('.icing').toggle();
-  $('.sicing').toggle();
+  if($('.round[value=round]').is(':checked')){
+    $('.rbase').hide();
+    $('.icing').toggle();
+  }
+});
+$(".c-icing").click(function(){
+  if($('.square[value=square]').is(':checked')){
+    $('.sbase').hide();
+    $('.sicing').toggle();
+  }
 });
