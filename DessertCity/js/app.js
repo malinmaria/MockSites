@@ -1,21 +1,25 @@
-// $(".warning").hide().show("slow");
+/*Cookies
+==============================*/
 
-    $(".cookies").click(function(){
-      $("#box").toggle(2000);
-    });
+$(".cookies").click(function(){
+  $("#box").toggle(2000);
+});
 
-    $(".c-cookie").click(function(){
-      $(this).toggleClass('rotate-l');
-    });
-    $(".m-cookie").click(function(){
-      $(this).toggleClass('rotate-l');
-    });
-    $(".s-cookie").click(function(){
-      $(this).toggleClass('rotate-r');
-    });
-    $(".d-cookie").click(function(){
-      $(this).toggleClass('rotate-r');
-    });
+$(".c-cookie").click(function(){
+  $(this).toggleClass('rotate-l');
+});
+$(".m-cookie").click(function(){
+  $(this).toggleClass('rotate-l');
+});
+$(".s-cookie").click(function(){
+  $(this).toggleClass('rotate-r');
+});
+$(".d-cookie").click(function(){
+  $(this).toggleClass('rotate-r');
+});
+
+/*Doughnuts
+==============================*/
 
 $("input").bind('focus blur', function(){
   $(this).toggleClass('green');
@@ -29,7 +33,6 @@ $(".s-submitted").click(function(){
   $(this).text(function(i, text){
     return text === 'Order Now!' ? 'Sending Your Order...' : 'Order Now!';
   });
-  // $(this).toggleClass('mv-dnt');
 });
 
 $(".s-submitted").click(function(){
@@ -38,6 +41,9 @@ $(".s-submitted").click(function(){
     $(".temp").show();
   });
 });
+
+/*Ice Cream
+==============================*/
 
 var $overlay = $('<div class="overlay"></div>');
 var $image = $("<img>");
@@ -58,6 +64,9 @@ $(".icm-wrapper a").click(function(event){
 $overlay.click(function(){
   $overlay.hide();
 });
+
+/*Cakes
+==============================*/
 
 $(".round").click(function(){
   $('.s-cake').hide();
